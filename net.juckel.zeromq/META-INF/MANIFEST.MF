@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ZeroMQ Bundle
+Bundle-SymbolicName: net.juckel.zeromq
+Bundle-Version: 2.1.11.qualifier
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-ClassPath: lib/zmq.jar,
+ .
+Export-Package: org.zeromq
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: net.juckel.zeromq.internal.Activator
+Import-Package: org.osgi.framework
+

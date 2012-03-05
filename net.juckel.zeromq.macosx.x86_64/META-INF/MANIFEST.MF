@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ZeroMQ OS X Fragment
+Bundle-SymbolicName: net.juckel.zeromq.cocoa.macosx.x86_64
+Bundle-Version: 2.1.11.qualifier
+Fragment-Host: net.juckel.zeromq;bundle-version="[2.1.11,3.0.0)"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Eclipse-PlatformFilter: (&(osgi.os=macosx)(osgi.arch=x86_64))
+Bundle-NativeCode: 
+ lib/mac/x86_64/libzmq.dylib
+ ;lib/mac/x86_64/libjzmq.dylib
+ ;osname=macosx;processor=x86_64

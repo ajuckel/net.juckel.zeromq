@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ZeroMQ Win32/x86 Native Libraries
+Bundle-SymbolicName: net.juckel.zeromq.win32.win32.x86;singleton:=true
+Bundle-Version: 2.1.11.qualifier
+Fragment-Host: net.juckel.zeromq;bundle-version="[2.1.11,3.0.0)"
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Classpath: lib/zmq.jar
+Eclipse-PlatformFilter: (&(osgi.os=win32)(osgi.arch=x86))
+Bundle-NativeCode: 
+ lib/win/x86/libzmq.dll
+ ;lib/win/x86/libjzmq.dll
+ ;osname=win32;processor=x86
